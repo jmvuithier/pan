@@ -163,6 +163,9 @@ snippets:
                     <entry name="DT-TE">
                       <ip-netmask>172.20.72.11/32</ip-netmask>
                     </entry>
+                    <entry name="Google-DNS">
+                      <ip-netmask>8.8.8.8/32</ip-netmask>
+                    </entry>
                   </address>
 
 

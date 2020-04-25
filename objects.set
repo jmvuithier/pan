@@ -1,0 +1,3 @@
+set address Sinkhole-IPv4 fqdn sinkhole.paloaltonetworks.com
+set address Sinkhole-IPv6 ip-netmask 2600:5200::1
+set address google-dns1 8.8.8.8

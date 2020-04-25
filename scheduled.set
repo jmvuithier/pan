@@ -1,0 +1,18 @@
+set deviceconfig system update-schedule statistics-service application-reports yes
+set deviceconfig system update-schedule statistics-service threat-prevention-reports yes
+set deviceconfig system update-schedule statistics-service threat-prevention-pcap yes
+set deviceconfig system update-schedule statistics-service threat-prevention-information yes
+set deviceconfig system update-schedule statistics-service passive-dns-monitoring yes
+set deviceconfig system update-schedule statistics-service url-reports yes
+set deviceconfig system update-schedule statistics-service health-performance-reports yes
+set deviceconfig system update-schedule statistics-service file-identification-reports yes
+set deviceconfig system update-schedule threats recurring every-30-mins at 2
+set deviceconfig system update-schedule threats recurring every-30-mins action download-and-install
+set deviceconfig system update-schedule threats recurring threshold 48
+set deviceconfig system update-schedule anti-virus recurring hourly at 4
+set deviceconfig system update-schedule anti-virus recurring hourly action download-and-install
+set deviceconfig system update-schedule wildfire recurring every-min action download-and-install
+set deviceconfig system update-schedule global-protect-datafile recurring hourly at 40
+set deviceconfig system update-schedule global-protect-datafile recurring hourly action download-and-install
+set deviceconfig system update-schedule global-protect-clientless-vpn recurring hourly at 50
+set deviceconfig system update-schedule global-protect-clientless-vpn recurring hourly action download-and-install

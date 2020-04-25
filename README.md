@@ -20,4 +20,8 @@ The file "wilfire.set" contain the basic configuration
 
 the file "objects.set" contain the minimal objects (Sinkhole Google DNS etc...)
 
+### Define scheduled
+
+the file "scheduled.set" contain the scheduled time for "update"
+
 

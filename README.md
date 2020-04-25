@@ -10,3 +10,4 @@ Run the following command to view the configuration:
 > set cli config-output-format set
 
 > configure
+> show 

@@ -25,3 +25,8 @@ the file "objects.set" contain the minimal objects (Sinkhole Google DNS etc...)
 the file "scheduled.set" contain the scheduled time for "update"
 
 
+### Define mail relay (for report and alert)
+
+the file "mailconfig.set" contain the mail configuration
+
+

@@ -1,0 +1,4 @@
+set shared log-settings email Sample_Email_Profile server Sample_Email_Profile display-name MailSent
+set shared log-settings email Sample_Email_Profile server Sample_Email_Profile gateway mysmtpserver.yourdoamin.com
+set shared log-settings email Sample_Email_Profile server Sample_Email_Profile from mypalo@yourdoamin.com
+set shared log-settings email Sample_Email_Profile server Sample_Email_Profile to sysadmin@yourdomain.com

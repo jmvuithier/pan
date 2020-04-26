@@ -30,3 +30,20 @@ the file "scheduled.set" contain the scheduled time for "update"
 the file "mailconfig.set" contain the mail configuration
 
 
+### Define Sinkhole rule
+
+the file "Rule_DNS_Sinkhole_Block.set" contain Block Sinkhole_Block packet from Any to Any
+
+
+### Define No-Decrypt rule
+
+the file "No-Decrypt-Rule.set" contain a best practice for no decrpyt standard categories and "WhiteList and BlackList" 
+
+### Decryption_Profile
+
+the file "No-Decrypt-Rule.set" contain a best practice for  Decryption 
+
+### Threat-Prevention
+
+the file "Threat-Prevention.set" contain a best practice for Antivirus, AntiSpyware, Url Filtering, Wildfire, FileBlocking on this
+configuration multiple profile and groups are created for Inbound and Outbound traffic

@@ -1,0 +1,17 @@
+set profiles decryption Recommended_Decryption_Profile ssl-forward-proxy block-expired-certificate yes
+set profiles decryption Recommended_Decryption_Profile ssl-forward-proxy block-untrusted-issuer yes
+set profiles decryption Recommended_Decryption_Profile ssl-forward-proxy block-unknown-cert yes
+set profiles decryption Recommended_Decryption_Profile ssl-forward-proxy block-timeout-cert yes
+set profiles decryption Recommended_Decryption_Profile ssl-forward-proxy block-unsupported-version yes
+set profiles decryption Recommended_Decryption_Profile ssl-forward-proxy block-unsupported-cipher yes
+set profiles decryption Recommended_Decryption_Profile ssl-no-proxy block-expired-certificate yes
+set profiles decryption Recommended_Decryption_Profile ssl-no-proxy block-untrusted-issuer yes
+set profiles decryption Recommended_Decryption_Profile ssl-inbound-proxy block-unsupported-version no
+set profiles decryption Recommended_Decryption_Profile ssl-inbound-proxy block-unsupported-cipher no
+set profiles decryption Recommended_Decryption_Profile ssh-proxy block-unsupported-version yes
+set profiles decryption Recommended_Decryption_Profile ssh-proxy block-unsupported-alg yes
+set profiles decryption Recommended_Decryption_Profile ssl-protocol-settings min-version tls1-2
+set profiles decryption Recommended_Decryption_Profile ssl-protocol-settings keyxchg-algo-rsa no
+set profiles decryption Recommended_Decryption_Profile ssl-protocol-settings enc-algo-3des no
+set profiles decryption Recommended_Decryption_Profile ssl-protocol-settings enc-algo-rc4 no
+set profiles decryption Recommended_Decryption_Profile ssl-protocol-settings auth-algo-sha1 no

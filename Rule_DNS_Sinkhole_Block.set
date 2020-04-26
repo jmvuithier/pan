@@ -1,0 +1,13 @@
+set rulebase security rules "DNS Sinkhole Block" description "Block outbound sessions that match a malicious domain and have been redirected to a configured sinkhole IP address."
+set rulebase security rules "DNS Sinkhole Block" to any
+set rulebase security rules "DNS Sinkhole Block" from any
+set rulebase security rules "DNS Sinkhole Block" source any
+set rulebase security rules "DNS Sinkhole Block" destination [ Sinkhole-IPv4 Sinkhole-IPv6 ]
+set rulebase security rules "DNS Sinkhole Block" source-user any
+set rulebase security rules "DNS Sinkhole Block" category any
+set rulebase security rules "DNS Sinkhole Block" application any
+set rulebase security rules "DNS Sinkhole Block" service any
+set rulebase security rules "DNS Sinkhole Block" hip-profiles any
+set rulebase security rules "DNS Sinkhole Block" action deny
+set rulebase security rules "DNS Sinkhole Block" log-setting default
+set rulebase security rules "DNS Sinkhole Block" tag Outbound

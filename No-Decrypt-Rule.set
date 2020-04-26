@@ -1,0 +1,26 @@
+set rulebase decryption rules "NO-Decrypt URL Categories" category [ financial-services government Custom-No-Decrypt ]
+set rulebase decryption rules "NO-Decrypt URL Categories" service any
+set rulebase decryption rules "NO-Decrypt URL Categories" type ssl-forward-proxy 
+set rulebase decryption rules "NO-Decrypt URL Categories" from any
+set rulebase decryption rules "NO-Decrypt URL Categories" to any
+set rulebase decryption rules "NO-Decrypt URL Categories" source any
+set rulebase decryption rules "NO-Decrypt URL Categories" destination any
+set rulebase decryption rules "NO-Decrypt URL Categories" source-user any
+set rulebase decryption rules "NO-Decrypt URL Categories" profile Recommended_Decryption_Profile
+set rulebase decryption rules "NO-Decrypt URL Categories" action no-decrypt
+set rulebase decryption rules "NO-Decrypt URL Categories" disabled yes
+set rulebase decryption rules "NO-Decrypt URL Categories" description "This rule does not do Decryption.  This rule is validating SSL Protocol Communications."
+set rulebase decryption rules "NO-Decrypt Rule" category any
+set rulebase decryption rules "NO-Decrypt Rule" service any
+set rulebase decryption rules "NO-Decrypt Rule" type ssl-forward-proxy 
+set rulebase decryption rules "NO-Decrypt Rule" from any
+set rulebase decryption rules "NO-Decrypt Rule" to any
+set rulebase decryption rules "NO-Decrypt Rule" source any
+set rulebase decryption rules "NO-Decrypt Rule" destination any
+set rulebase decryption rules "NO-Decrypt Rule" source-user any
+set rulebase decryption rules "NO-Decrypt Rule" profile Recommended_Decryption_Profile
+set rulebase decryption rules "NO-Decrypt Rule" action no-decrypt
+set rulebase decryption rules "NO-Decrypt Rule" description "This rule does not do Decryption.  This rule is validating SSL Protocol Communications."
+set profiles custom-url-category Black-List type "URL List"
+set profiles custom-url-category White-List type "URL List"
+set profiles custom-url-category Custom-No-Decrypt type "URL List"

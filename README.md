@@ -12,6 +12,17 @@ Run the following command to view the configuration:
 > configure
 > show 
 
+### How to use the set files
+
+1. Download the source on your computer
+2. Edit the file in your favorite editor (like bbedit, notepad++ etc...)
+3. Connect on ssh on your firewall 
+4. type "set cli config-output-format set$2
+5. Pass on "configure"
+6. Past the file like wildfire.set
+7. "commit" 
+8. Connect on the gui and check the result 
+
 ### Wilfire configuration
 
 The file "wilfire.set" contain the basic configuration
@@ -41,7 +52,7 @@ the file "No-Decrypt-Rule.set" contain a best practice for no decrpyt standard c
 
 ### Decryption_Profile
 
-the file "No-Decrypt-Rule.set" contain a best practice for  Decryption 
+the file "Decryption_Profile.set" contain a best practice for Decryption 
 
 ### Threat-Prevention
 

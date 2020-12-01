@@ -17,7 +17,7 @@ Run the following command to view the configuration:
 1. Download the source on your computer
 2. Edit the file in your favorite editor (like bbedit, notepad++ etc...)
 3. Connect on ssh on your firewall 
-4. type "set cli config-output-format set$2
+4. type "set cli config-output-format set
 5. Pass on "configure"
 6. Past the file like wildfire.set
 7. "commit" 
